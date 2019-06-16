@@ -1,4 +1,5 @@
 /*Ce readme résume le learning path sur jasmine
+Lien vers le débot Github: https://github.com/Sidiki-lab/code-source-jasmine
 Il contient 4 TPs à réaliser pour comprendre les fonctions de base de Jasmine :
 •	TP1: How to to use jasmine to test Node js Application
 •	TP2: NodeJS Jasmine Describe Blocks Nested Example
