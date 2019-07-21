@@ -11,9 +11,10 @@ __TP4: NodeJS with jasmine learning with matchers exemple
 Les tests unitaires sont des méthodes permettant de tester de façon unitaire des éléments d’un code source. Leur principal objectif est de vérifier le bon fonctionnement de sous-ensembles de code tels que les fonctions, les procédures, les classes, etc.. Les tests unitaires garantissent que ces éléments de base fonctionnent comme souhaité et préviennent des potentiels bugs.
 Jasmine est un framework de tests open-source pour JavaScript. Il possède une syntaxe assez facile à prendre en main. C’est un framework dit Behaviour-Driven Development.Installation
 Installation
-- Installation dans le projet actuel : npm install --save jasmine
+- Installation en tant que dependances Dev : npm install --save-dev jasmine
 -	Installation globale : npm install -g jasmine
--	Test du code : Jasmine init 
+-	Initialisation du projet : Jasmine init
+- lancer le test: jasmine test.spec.js ou jasmine spec/*.spec.js
 
 ## Exemple d’un test simple 
 Une suite de spécifications permet de décrire un ensemble de tests à effectuer. La fonction 'describe', dont on peut voir la structure ci-dessous, est utilisée pour décrire cette suite.*/
